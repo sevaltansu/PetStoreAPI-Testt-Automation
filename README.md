@@ -14,7 +14,8 @@ Ayrıca aynı API'ye yönelik **yük testleri** de yapılmıştır.
 - ✅ Postman
 
 ---
-## Test Senaryoları
+
+##  Test Senaryoları
 
 - ✔️ `POST /v2/user` - Kullanıcı oluşturma
 - ✔️ `GET /v2/user/{username}` - Kullanıcıyı görüntüleme
