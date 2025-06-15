@@ -17,18 +17,19 @@ Ayrıca aynı API'ye yönelik **yük testleri** de yapılmıştır.
 
 ##  Test Senaryoları
 
-- ✔️ `POST /v2/user` - Kullanıcı oluşturma
-- ✔️ `GET /v2/user/{username}` - Kullanıcıyı görüntüleme
-- ✔️ `PUT /v2/user/{username}` - Kullanıcı güncelleme
-- ✔️ `DELETE /v2/user/{username}` - Kullanıcı silme
-- ✔️ `GET /v2/user/login?` - Kullanıcı giriş
--  ✔️ `GET /v2/user/logout` - Kullanıcı çıkış
-- ✔️ `POST /v2/pet` - Pet oluşturma
-- ✔️ `GET /v2/pet/{id}` - Pet görüntüleme
-- ✔️ `PUT /v2/pet` - Pet güncelleme
-- ✔️ `DELETE /v2/pet/{id}` - Pet silme
+-POST /v2/user → Yeni kullanıcı oluşturma
+-GET /v2/user/{username} → Kullanıcı bilgilerini getirme
+-PUT /v2/user/{username} → Kullanıcı bilgilerini güncelleme
+-DELETE /v2/user/{username} → Kullanıcı silme
+-GET /v2/user/login → Kullanıcı girişi
+-GET /v2/user/logout → Kullanıcı çıkışı
+-POST /v2/pet → Pet oluşturma
+-GET /v2/pet/{id} → Pet bilgisi görüntüleme
+-PUT /v2/pet → Pet güncelleme
+-DELETE /v2/pet/{id} → Pet silme
+ ---
 
----
+ Allure raporları, allure-report/ klasörü altında HTML formatında sunulmuştur. Her test adımı ve sonucu detaylı biçimde yer almaktadır.
 
 ## Load Testleri (Locust)
  Test Kapsamı
